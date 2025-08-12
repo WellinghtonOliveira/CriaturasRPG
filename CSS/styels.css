@@ -66,6 +66,20 @@
 .span-infos {
     background-color: purple;
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
 }
+
+.info-div-count {
+    display: flex;
+}
+
+.largura {
+    margin: 0 5px;
+}
+
+.altura {
+    margin: 0 5px;
+}
+
