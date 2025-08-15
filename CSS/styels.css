@@ -122,3 +122,14 @@
     letter-spacing: 1px;
     border-radius: 5px;
 }
+
+.status {
+    background-color: red;
+    padding: 10px;
+}
+
+.status span {
+        
+    margin: 10px;
+    background-color: blue;
+}
