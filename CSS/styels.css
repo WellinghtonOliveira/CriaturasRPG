@@ -10,12 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1b1b32;
 }
 
 .caixa {
     width: 500px;
-    height: 600px;
-    background-color: gray;
+    height: 650px;
+    background-color: #f0f1f7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #adabb1;
 }
 
 .caixa h1 {
@@ -53,16 +57,20 @@
 .inputs-search input {
     padding: 7px;
     font-size: 14px;
-    min-width: 200px;
-    
+    min-width: 200px;    
 }
 
 .inputs-search button {
     padding: 7px;
     font-size: 14px;
-    font-weight: bold;
     letter-spacing: 1px;
     margin: 0 7px;
+    background-color: #7f21ab;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .container-filho > :nth-child(1) p {
@@ -100,8 +108,19 @@
     height: auto;
 }
 
+.classe {
+    background-color: #ff6f52;
+    font-weight: bold;
+}
+
 .info-div-count {
     display: flex;
+}
+
+h3 {
+    font-family: helvetica;
+    font-size: 18px;
+    margin-top: 15px;
 }
 
 .largura, .altura {
@@ -125,28 +144,31 @@
 
 .status {
     padding: 10px;
+    margin-top: 30px;
 }
 
 .status span {
-    padding: 5px;
     display: flex;
-    margin: 5px;
+    margin-top: 3px;
 }
 
 .status span :nth-child(2) {
     text-align: end;
+    width: 250px;
     padding-right: 20px;
 }
 
 .status span div {
     width: 100%;
     height: auto;
-    margin: 0 10px;
+    margin: 0 3px;
     text-align: center;
-    padding: 3px;
+    padding: 10px;
     font-style: normal;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: white;
     letter-spacing: 1px;
+    background-color: #7f21ab;
 }
