@@ -108,10 +108,6 @@
     height: auto;
 }
 
-.classe {
-    background-color: #ff6f52;
-    font-weight: bold;
-}
 
 .info-div-count {
     display: flex;
@@ -172,3 +168,13 @@ h3 {
     letter-spacing: 1px;
     background-color: #7f21ab;
 }
+
+/* Cores específicas */
+.fire { background: #e25822; }
+.water { background: #3b9dff; }
+.rock { background: #8b7355; }
+.ground { background: #b9975b; }
+.air { background: #a0a0a0; }
+.electric { background: #f7d02c; color: #222; }
+.dark { background: #5a5a5a; }
+.fairy { background: #ff9de2; color: #222; }
